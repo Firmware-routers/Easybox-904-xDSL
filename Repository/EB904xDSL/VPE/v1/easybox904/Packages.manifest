@@ -1,0 +1,140 @@
+Package: con2fbmap
+Version: 1
+Depends: libc
+Source: feeds/easybox904/utils/con2fbmap
+SourceName: con2fbmap
+Section: utils
+SourceDateEpoch: 1594886040
+Architecture: mips_24kc
+Installed-Size: 1616
+Filename: con2fbmap_1_mips_24kc.ipk
+Size: 2359
+SHA256sum: 553ffa3463a7f7be8177a1ddd06a34ad5f631ec36df34420f8e4f1a32914c751
+Description:  Simple utility for swapping an fbtft-based device as the console
+
+Package: kmod-fb-tft-ili9341-eb904
+Version: 5.4.203+1.0.1-1
+Depends: kernel (=5.4.203-1-d4b4772f470bfe752bf541209f9e97e1), kmod-fb-tft, kmod-fb-sys-fops, kmod-fb-sys-ram, kmod-backlight
+Source: feeds/easybox904/kernel/fbtft
+SourceName: kmod-fb-tft-ili9341-eb904
+Section: kernel
+SourceDateEpoch: 1594886040
+Architecture: mips_24kc
+Installed-Size: 3282
+Filename: kmod-fb-tft-ili9341-eb904_5.4.203+1.0.1-1_mips_24kc.ipk
+Size: 4076
+SHA256sum: f383ae4c4a6462e0ae24012e4447c40b0d39993432e6d6b77eacf816f7444c93
+Description:  FB driver for the special ILI9341 LCD Controller inside EasyBox 904
+
+Package: kmod-keyboard-eb904
+Version: 5.4.203+1.0.0-1
+Depends: kernel (=5.4.203-1-d4b4772f470bfe752bf541209f9e97e1), kmod-input-matrixkmap, kmod-i2c-core, kmod-gpio-nxp-74hc164, kmod-i2c-algo-bit, kmod-i2c-gpio, kmod-spi-gpio
+Source: feeds/easybox904/kernel/touchpad
+SourceName: kmod-keyboard-eb904
+Section: kernel
+SourceDateEpoch: 1594886040
+Architecture: mips_24kc
+Installed-Size: 4321
+Filename: kmod-keyboard-eb904_5.4.203+1.0.0-1_mips_24kc.ipk
+Size: 5133
+SHA256sum: c9db712fa6b347253ad7c576914c0f5b9bfc1b3a3253cc308409bf7877be4492
+Description:  Enable support for EasyBox 904 keypad port.
+
+Package: kmod-ralink_inic
+Version: 5.4.203+de9a965-1
+Depends: kernel (=5.4.203-1-d4b4772f470bfe752bf541209f9e97e1), wireless-tools
+Source: feeds/easybox904/kernel/ralink_inic
+SourceName: kmod-ralink_inic
+Section: kernel
+SourceDateEpoch: 1594886040
+Architecture: mips_24kc
+Installed-Size: 52343
+Filename: kmod-ralink_inic_5.4.203+de9a965-1_mips_24kc.ipk
+Size: 52622
+SHA256sum: 3f1bd316b9cbe80ba1b9fde5a25856fa5a455f08afd6dc31a0cfc1ec5d9a912d
+Description:  This package contains the proprietary wireless driver for the
+ Easybox 904 xDSL.
+
+Package: lcd4linux-eb904-custom
+Version: 2019-07-19-0b83bb3a
+Depends: libc, serdisplib, libusb-compat4, libgd, libncurses6
+Provides: lcd4linux
+Source: feeds/easybox904/utils/lcd4linux-eb904
+SourceName: lcd4linux-eb904-custom
+Section: utils
+SourceDateEpoch: 1594886040
+Architecture: mips_24kc
+Installed-Size: 166272
+Filename: lcd4linux-eb904-custom_2019-07-19-0b83bb3a_mips_24kc.ipk
+Size: 166943
+SHA256sum: 7a92df5553dae020ac291cca871db695fd3480152c421d6d91ef5c1e2c1f7bc5
+Description:  LCD4Linux is a small program that grabs information from the kernel and
+ some subsystems and displays it on an external liquid crystal display.
+ .
+ This package contains a customized version of LCD4Linux.
+
+Package: lcdcontroller
+Version: 1
+Depends: libc, lua, lua-evdev, lua-lalarm, lualanes
+Source: feeds/easybox904/utils/lcdcontroller
+SourceName: lcdcontroller
+Section: utils
+SourceDateEpoch: 1594886040
+Architecture: mips_24kc
+Installed-Size: 1145
+Filename: lcdcontroller_1_mips_24kc.ipk
+Size: 1878
+SHA256sum: 536e06b537dea0eb3d24ad542b2e29a44f4c2e65e123c434b7217ff9b85cd104
+Description:  LCD Controller
+
+Package: lua-evdev
+Version: 1.0.0-1
+Depends: libc, lua
+Source: feeds/easybox904/lang/lua-evdev
+SourceName: lua-evdev
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1594886040
+Maintainer: Quallenauge <Hamsi2k@freenet.de>
+Architecture: mips_24kc
+Installed-Size: 8045
+Filename: lua-evdev_1.0.0-1_mips_24kc.ipk
+Size: 8846
+SHA256sum: 25ba592d8bd6eeed64d5e866a45012725b3492a80bcc8569352b63932fea1f50
+Description:  Lua module for reading Linux input events from /dev/input/eventXX nodes
+
+Package: lua-event
+Version: 0.4.4-1
+Depends: libc, lua, libevent2-7
+Source: feeds/easybox904/lang/lua-event
+SourceName: lua-event
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1594886040
+Maintainer: Quallenauge <Hamsi2k@freenet.de>
+Architecture: mips_24kc
+Installed-Size: 8950
+Filename: lua-event_0.4.4-1_mips_24kc.ipk
+Size: 9782
+SHA256sum: ee8f74db6b5a64dbbdd5e426c30c8bf7d656e16620e594dbdd20776ca293bc35
+Description:  Lua module for reading Linux input events from /dev/input/eventXX nodes
+
+Package: lua-lalarm
+Version: 1.0.0-1
+Depends: libc, lua
+Source: feeds/easybox904/lang/lua-lalarm
+SourceName: lua-lalarm
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1594886040
+Maintainer: Quallenauge <Hamsi2k@freenet.de>
+Architecture: mips_24kc
+Installed-Size: 1729
+Filename: lua-lalarm_1.0.0-1_mips_24kc.ipk
+Size: 2516
+SHA256sum: b81b2a68cf71da0b19fd81a53ce157a2640c92f56bc7695a8fd38614accdb71b
+Description:  An alarm library for Lua based on POSIX alarm.
+
